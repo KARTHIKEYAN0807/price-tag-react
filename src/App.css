@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%; /* Ensure the container takes full width */
+  padding: 0 20px; /* Add some padding on the sides */
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center; /* Center text inside card */
+  color: black; /* Set text color to black */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  color: black; /* Ensure header text is black */
+}
+
+.card h1.price {
+  font-size: 36px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  margin-bottom: 20px;
+  color: black; /* Ensure price text is black */
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+  color: black; /* Ensure list text is black */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add some space between the icon and the text */
+}
+
+.card ul li.available {
+  color: green; /* Set text color for available features */
+}
+
+.card ul li.unavailable {
+  color: red; /* Set text color for unavailable features */
+}
+
+.card button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50px; /* Make the button rounded */
+  cursor: pointer;
+  margin-top: 20px;
+  width: 180px; /* Set button width */
+}
+
+.card button:hover {
+  background: #0056b3;
+}
