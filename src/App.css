@@ -72,7 +72,7 @@
   border-radius: 50px; /* Make the button rounded */
   cursor: pointer;
   margin-top: 20px;
-  width: 180px; /* Set button width */
+  width: 280px; /* Set button width */
 }
 
 .card button:hover {
